@@ -1,64 +1,146 @@
 <!DOCTYPE html>
-<html lang="ar">
+<html lang="ar" dir="rtl">
 
 <head>
     <meta charset="UTF-8">
-    <title>إضافة قنوات IPTV</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>إدارة مصادر القنوات - Alroaimy TV</title>
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;700&display=swap" rel="stylesheet">
     <style>
+        :root {
+            --primary: #3498db;
+            --secondary: #2ecc71;
+            --danger: #e74c3c;
+            --dark: #2c3e50;
+            --light: #ecf0f1;
+        }
+
         body {
-            font-family: Arial;
-            direction: rtl;
-            background: #f0f2f5;
+            font-family: 'Cairo', sans-serif;
+            background-color: #f4f7f6;
+            margin: 0;
             padding: 20px;
+            color: var(--dark);
         }
 
-        h1 {
-            text-align: center;
-            color: #007BFF;
-        }
-
-        form {
-            max-width: 500px;
+        .container {
+            max-width: 900px;
             margin: 0 auto;
+        }
+
+        header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 30px;
             background: white;
             padding: 20px;
             border-radius: 10px;
-            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+
+        h1 {
+            margin: 0;
+            font-size: 24px;
+            color: var(--primary);
+        }
+
+        .btn {
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-weight: bold;
+            transition: 0.3s;
+            text-decoration: none;
+            display: inline-block;
+        }
+
+        .btn-update {
+            background-color: var(--secondary);
+            color: white;
+        }
+
+        .btn-update:hover {
+            background-color: #27ae60;
+        }
+
+        .btn-add {
+            background-color: var(--primary);
+            color: white;
+            width: 100%;
+            margin-top: 10px;
+        }
+
+        .btn-add:hover {
+            background-color: #2980b9;
+        }
+
+        .btn-delete {
+            background-color: var(--danger);
+            color: white;
+            padding: 5px 15px;
+            font-size: 14px;
+        }
+
+        .btn-delete:hover {
+            background-color: #c0392b;
+        }
+
+        section {
+            background: white;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            margin-bottom: 20px;
+        }
+
+        .grid-form {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 15px;
+        }
+
+        .form-group {
+            display: flex;
+            flex-direction: column;
         }
 
         label {
-            display: block;
-            margin-top: 10px;
+            margin-bottom: 5px;
             font-weight: bold;
         }
 
         input,
         select {
+            padding: 10px;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            font-family: inherit;
+        }
+
+        table {
             width: 100%;
-            padding: 8px;
-            margin-top: 5px;
-            border-radius: 5px;
-            border: 1px solid #ccc;
+            border-collapse: collapse;
+            margin-top: 10px;
         }
 
-        button {
-            margin-top: 15px;
-            padding: 10px 20px;
-            background-color: #28a745;
-            color: white;
-            border: none;
-            border-radius: 5px;
-            cursor: pointer;
+        th,
+        td {
+            padding: 12px;
+            text-align: right;
+            border-bottom: 1px solid #eee;
         }
 
-        button:hover {
-            background-color: #218838;
+        th {
+            background-color: #f8f9fa;
         }
 
         .flash {
-            margin-top: 15px;
-            padding: 10px;
+            padding: 15px;
+            margin-bottom: 20px;
             border-radius: 5px;
+            text-align: center;
         }
 
         .success {
@@ -70,37 +152,112 @@
             background-color: #f8d7da;
             color: #721c24;
         }
+
+        .badge {
+            padding: 3px 8px;
+            border-radius: 12px;
+            font-size: 12px;
+            color: white;
+        }
+
+        .bg-m3u {
+            background-color: #9b59b6;
+        }
+
+        .bg-youtube {
+            background-color: #e74c3c;
+        }
+
+        .bg-direct {
+            background-color: #34495e;
+        }
     </style>
 </head>
 
 <body>
-    <h1>إضافة قنوات IPTV</h1>
 
-    {% with messages = get_flashed_messages(with_categories=true) %}
-    {% if messages %}
-    {% for category, message in messages %}
-    <div class="flash {{ category }}">{{ message }}</div>
-    {% endfor %}
-    {% endif %}
-    {% endwith %}
+    <div class="container">
+        <header>
+            <h1>Alroaimy TV - إدارة المصادر</h1>
+            <a href="/update" class="btn btn-update">تحديث جميع القنوات الآن 🔄</a>
+        </header>
 
-    <form method="post">
-        <label>القسم</label>
-        <select name="category">
-            <option value="Quran">Quran</option>
-            <option value="News">News</option>
-            <option value="Movies">Movies</option>
-            <option value="Sports">Sports</option>
-        </select>
+        {% with messages = get_flashed_messages(with_categories=true) %}
+        {% if messages %}
+        {% for category, message in messages %}
+        <div class="flash {{ category }}">{{ message }}</div>
+        {% endfor %}
+        {% endif %}
+        {% endwith %}
 
-        <label>اسم القناة</label>
-        <input type="text" name="channel_name" placeholder="أدخل اسم القناة">
+        <section>
+            <h2>إضافة مصدر جديد</h2>
+            <form method="POST">
+                <input type="hidden" name="action" value="add">
+                <div class="grid-form">
+                    <div class="form-group">
+                        <label>اسم المصدر</label>
+                        <input type="text" name="name" placeholder="مثلاً: قنوات الأخبار" required>
+                    </div>
+                    <div class="form-group">
+                        <label>نوع المصدر</label>
+                        <select name="type">
+                            <option value="m3u">M3U List (رابط)</option>
+                            <option value="youtube">YouTube Channel/Live (رابط)</option>
+                            <option value="direct">Direct Stream (رابط مباشر)</option>
+                        </select>
+                    </div>
+                    <div class="form-group" style="grid-column: span 2;">
+                        <label>الرابط (URL)</label>
+                        <input type="text" name="url" placeholder="https://..." required>
+                    </div>
+                    <div class="form-group" style="grid-column: span 2;">
+                        <label>القسم الرئيسي (Category)</label>
+                        <input type="text" name="category" placeholder="عربي، إسلامي، رياضة...">
+                    </div>
+                </div>
+                <button type="submit" class="btn btn-add">إضافة المصدر</button>
+            </form>
+        </section>
 
-        <label>رابط القناة</label>
-        <input type="text" name="channel_url" placeholder="https://example.com/stream.m3u">
+        <section>
+            <h2>المصادر الحالية</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>الاسم</th>
+                        <th>النوع</th>
+                        <th>القسم</th>
+                        <th>التحكم</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    {% for source in sources %}
+                    <tr>
+                        <td>{{ source.name }}</td>
+                        <td>
+                            <span class="badge bg-{{ source.type }}">{{ source.type }}</span>
+                        </td>
+                        <td>{{ source.category }}</td>
+                        <td>
+                            <form method="POST" style="display:inline;">
+                                <input type="hidden" name="action" value="delete">
+                                <input type="hidden" name="index" value="{{ loop.index0 }}">
+                                <button type="submit" class="btn btn-delete"
+                                    onclick="return confirm('هل أنت متأكد؟')">حذف</button>
+                            </form>
+                        </td>
+                    </tr>
+                    {% else %}
+                    <tr>
+                        <td colspan="4" style="text-align: center; padding: 30px;">لا توجد مصادر مضافة حالياً.</td>
+                    </tr>
+                    {% endfor %}
+                </tbody>
+            </table>
+        </section>
+    </div>
 
-        <button type="submit">إضافة القناة</button>
-    </form>
 </body>
 
 </html>
