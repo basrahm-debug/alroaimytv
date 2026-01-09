@@ -37,6 +37,7 @@ REM 5️⃣ رفع التحديثات إلى GitHub
 echo رفع الملفات إلى GitHub...
 git add .
 git commit -m "Auto update channels and project files"
+git pull --rebase origin main
 git push -u origin main
 
 REM 6️⃣ تشغيل واجهة الويب
