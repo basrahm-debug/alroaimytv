@@ -1,60 +1,39 @@
 @echo off
-REM ====================================================
-REM IPTV Ultimate Automation: Update + YouTube + Git + Web UI
-REM ====================================================
+SETLOCAL
 
-REM 1️⃣ الانتقال إلى مجلد المشروع
-cd /d E:\alroaimytv\alroaimytv
+echo ------------------------------
+echo تشغيل Ultimate IPTV Project
+echo ------------------------------
 
-REM ====================================================
-REM 2️⃣ تفعيل البيئة الافتراضية (إذا موجودة)
-IF EXIST venv (
-    echo Activating virtual environment...
-    call venv\Scripts\activate
+REM 1️⃣ تفعيل أو إنشاء البيئة الافتراضية
+IF NOT EXIST ".venv\Scripts\activate.bat" (
+    echo انشاء البيئة الافتراضية...
+    python -m venv .venv
 )
+echo تفعيل البيئة الافتراضية...
+call .venv\Scripts\activate.bat
 
-REM ====================================================
-REM 3️⃣ تثبيت المكتبات المطلوبة
-echo Installing required Python packages...
+REM 2️⃣ تثبيت المتطلبات
+echo تثبيت المكتبات المطلوبة...
+pip install --upgrade pip
 pip install -r requirements.txt
-pip install yt-dlp --upgrade
 
-REM ====================================================
-REM 4️⃣ تحديث القنوات تلقائيًا (M3U + Direct + YouTube)
-echo Updating channels.json...
-python scripts\update_channels.py
+REM 3️⃣ تحديث القنوات تلقائيًا
+echo تحديث القنوات من M3U + YouTube...
+python scripts/update_channels.py
 
-REM ====================================================
-REM 5️⃣ عرض عدد القنوات بعد التحديث
-python - <<END
-import json
-with open("remote/channels.json","r",encoding="utf-8") as f:
-    data=json.load(f)
-count=sum(len(cat.get("channels",[])) for cat in data.get("categories",[]))
-print(f"تم تحديث {count} قناة في المجموع.")
-END
+REM 4️⃣ رفع التحديثات إلى GitHub
+echo رفع الملفات إلى GitHub...
+git add .
+git commit -m "Auto update channels and project files"
+git push -u origin main
 
-REM ====================================================
-REM 6️⃣ Git: إضافة الملفات المهمة فقط
-git add -u remote/channels.json
-git add update_and_push.bat
+REM 5️⃣ تشغيل واجهة الويب
+echo تشغيل واجهة الويب...
+cd web_interface
+start "" python app.py
 
-REM ====================================================
-REM 7️⃣ Commit & Push إلى GitHub
-git commit -m "Auto-update channels including YouTube"
-git push
-
-REM ====================================================
-REM 8️⃣ فتح المتصفح تلقائيًا على الواجهة المتقدمة
-echo Launching advanced web interface...
-start "" python -m webbrowser -t "http://127.0.0.1:5000/"
-
-REM ====================================================
-REM 9️⃣ تشغيل Flask في نافذة جديدة
-start "" cmd /k python web_interface\app.py
-
-REM ====================================================
-echo ==========================================
-echo كل شيء جاهز! الواجهة المتقدمة مفتوحة الآن.
-echo اضغط أي مفتاح للإغلاق.
+echo ------------------------------
+echo العملية اكتملت!
 pause
+ENDLOCAL
