@@ -27,6 +27,13 @@
       "type": "m3u",
       "category": "عربي عام",
       "enabled": true
+    },
+    {
+      "name": "القنوات العراقية",
+      "url": "https://raw.githubusercontent.com/iptv-org/iptv/refs/heads/master/streams/iq.m3u",
+      "type": "m3u",
+      "category": "القنوات العراقية",
+      "enabled": true
     }
   ]
 }
