@@ -64,29 +64,6 @@ def parse_m3u(url, default_category):
     
     return channels
 
-from concurrent.futures import ThreadPoolExecutor, as_completed
-
-def process_source(src):
-    if not src.get("enabled", True):
-        return []
-
-    src_type = src.get("type", "direct")
-    src_url = src.get("url")
-    src_name = src.get("name")
-    src_cat = src.get("category", "General")
-
-    channels_to_add = []
-    if src_type == "m3u":
-        channels_to_add = parse_m3u(src_url, src_cat)
-    elif src_type == "youtube":
-        stream_url = get_youtube_stream_url(src_url)
-        if stream_url:
-            channels_to_add = [{"name": src_name, "url": stream_url, "category": src_cat}]
-    elif src_type == "direct":
-        channels_to_add = [{"name": src_name, "url": src_url, "category": src_cat}]
-    
-    return channels_to_add
-
 def main():
     if not os.path.exists(SOURCES_JSON):
         print("ملف المصادر غير موجود!")
@@ -98,16 +75,31 @@ def main():
 
     all_channels_by_cat = {}
 
-    # استخدام ThreadPoolExecutor لتسريع العملية
-    with ThreadPoolExecutor(max_workers=5) as executor:
-        future_to_src = {executor.submit(process_source, src): src for src in sources}
-        for future in as_completed(future_to_src):
-            channels_to_add = future.result()
-            for ch in channels_to_add:
-                cat = ch['category']
-                if cat not in all_channels_by_cat:
-                    all_channels_by_cat[cat] = []
-                all_channels_by_cat[cat].append({"name": ch['name'], "url": ch['url']})
+    for src in sources:
+        if not src.get("enabled", True):
+            continue
+
+        src_type = src.get("type", "direct")
+        src_url = src.get("url")
+        src_name = src.get("name")
+        src_cat = src.get("category", "General")
+
+        channels_to_add = []
+
+        if src_type == "m3u":
+            channels_to_add = parse_m3u(src_url, src_cat)
+        elif src_type == "youtube":
+            stream_url = get_youtube_stream_url(src_url)
+            if stream_url:
+                channels_to_add = [{"name": src_name, "url": stream_url, "category": src_cat}]
+        elif src_type == "direct":
+            channels_to_add = [{"name": src_name, "url": src_url, "category": src_cat}]
+
+        for ch in channels_to_add:
+            cat = ch['category']
+            if cat not in all_channels_by_cat:
+                all_channels_by_cat[cat] = []
+            all_channels_by_cat[cat].append({"name": ch['name'], "url": ch['url']})
 
     # تحويل البيانات للشكل النهائي
     final_data = {"categories": []}

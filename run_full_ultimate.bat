@@ -9,10 +9,7 @@ echo ------------------------------
 REM 1️⃣ النسخ الاحتياطي لقنوات JSON
 if exist "remote\channels.json" (
     echo اخذ نسخة احتياطية من channels.json...
-    set "stamp=%DATE:/=-%_%TIME::=-%"
-    set "stamp=%stamp: =0%"
-    set "stamp=%stamp:,=.%"
-    copy "remote\channels.json" "remote\channels_backup_%stamp%.json" >nul
+    copy "remote\channels.json" "remote\channels_backup_%date:~-4%%date:~3,2%%date:~0,2%_%time:~0,2%%time:~3,2%%time:~6,2%.json" >nul
 )
 
 REM 2️⃣ تفعيل أو إنشاء البيئة الافتراضية
@@ -36,9 +33,8 @@ REM 4️⃣ تحديث القنوات تلقائيًا
 echo تحديث القنوات من M3U + YouTube...
 python scripts/update_channels.py
 
-REM 5️⃣ مزامنة الملفات مع GitHub
-echo مزامنة الملفات مع GitHub...
-git pull origin main
+REM 5️⃣ رفع التحديثات إلى GitHub
+echo رفع الملفات إلى GitHub...
 git add .
 git commit -m "Auto update channels and project files"
 git push -u origin main
