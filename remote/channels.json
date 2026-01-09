@@ -1,6 +1,470 @@
 {
     "categories": [
         {
+            "name": "قطر",
+            "channels": [
+                {
+                    "name": "Al Araby TV (1080p)",
+                    "url": "https://live.kwikmotion.com/alaraby1live/alaraby_abr/playlist.m3u8"
+                },
+                {
+                    "name": "Al Araby TV (1080p)",
+                    "url": "https://stream.ads.ottera.tv/playlist.m3u8?network_id=5616"
+                },
+                {
+                    "name": "Al Araby TV 2 (1080p)",
+                    "url": "https://live.kwikmotion.com/alaraby2live/alaraby2.smil/playlist.m3u8"
+                },
+                {
+                    "name": "Al Araby TV 2 (1080p)",
+                    "url": "https://stream.ads.ottera.tv/playlist.m3u8?network_id=5617"
+                },
+                {
+                    "name": "Al Jazeera (1080p)",
+                    "url": "https://live-hls-apps-aja-fa.getaj.net/AJA/index.m3u8"
+                },
+                {
+                    "name": "Al Jazeera (1080p)",
+                    "url": "https://live-hls-apps-aja-v3-fa.getaj.net/AJA/index.m3u8"
+                },
+                {
+                    "name": "Al Jazeera (1080p)",
+                    "url": "https://live-hls-web-aja-fa.thehlive.com/AJA/index.m3u8"
+                },
+                {
+                    "name": "Al Jazeera",
+                    "url": "https://dash4.antik.sk/live/test_aljazeera/playlist.m3u8"
+                },
+                {
+                    "name": "Al Jazeera Arabic (1080p)",
+                    "url": "https://live-hls-v3-aja.getaj.net/AJA-V3/index.m3u8"
+                },
+                {
+                    "name": "Al Jazeera Arabic (1080p)",
+                    "url": "https://live-hls-web-aja.getaj.net/AJA/index.m3u8"
+                },
+                {
+                    "name": "Al Jazeera Documentary (1080p) [Geo-blocked]",
+                    "url": "https://live-hls-apps-ajd-fa.getaj.net/AJD/index.m3u8"
+                },
+                {
+                    "name": "Al Jazeera Documentary (1080p) [Geo-blocked]",
+                    "url": "https://live-hls-apps-ajd-v3-fa.getaj.net/AJD/index.m3u8"
+                },
+                {
+                    "name": "Al Jazeera Documentary (1080p) [Geo-blocked]",
+                    "url": "https://live-hls-web-ajd-fa.thehlive.com/AJD/index.m3u8"
+                },
+                {
+                    "name": "Al Jazeera Documentary (1080p) [Geo-blocked]",
+                    "url": "https://live-hls-web-ajd.getaj.net/AJD/index.m3u8"
+                },
+                {
+                    "name": "Al Jazeera English (1080p)",
+                    "url": "https://live-hls-apps-aje-fa.getaj.net/AJE/index.m3u8"
+                },
+                {
+                    "name": "Al Jazeera English (1080p)",
+                    "url": "https://live-hls-apps-aje-v3-fa.getaj.net/AJE/index.m3u8"
+                },
+                {
+                    "name": "Al Jazeera English (1080p)",
+                    "url": "https://live-hls-web-aje-fa.thehlive.com/AJE/index.m3u8"
+                },
+                {
+                    "name": "Al Jazeera English",
+                    "url": "https://d1cy85syyhvqz5.cloudfront.net/v1/master/7b67fbda7ab859400a821e9aa0deda20ab7ca3d2/aljazeeraLive/AJE/index.m3u8"
+                },
+                {
+                    "name": "Al Jazeera English",
+                    "url": "https://dash4.antik.sk/live/test_aljazeera_eng/playlist.m3u8"
+                },
+                {
+                    "name": "Al Jazeera English",
+                    "url": "https://viamotionhsi.netplus.ch/live/eds/aljazeera/browser-HLS8/aljazeera.m3u8"
+                },
+                {
+                    "name": "Al Jazeera Mubasher (1080p)",
+                    "url": "https://live-hls-apps-ajm-fa.getaj.net/AJM/index.m3u8"
+                },
+                {
+                    "name": "Al Jazeera Mubasher (1080p)",
+                    "url": "https://live-hls-apps-ajm-v3-fa.getaj.net/AJM/index.m3u8"
+                },
+                {
+                    "name": "Al Jazeera Mubasher (1080p)",
+                    "url": "https://live-hls-web-ajm-fa.thehlive.com/AJM/index.m3u8"
+                },
+                {
+                    "name": "Al Jazeera Mubasher (1080p)",
+                    "url": "https://live-hls-web-ajm.getaj.net/AJM/index.m3u8"
+                },
+                {
+                    "name": "Al Jazeera Mubasher 24 (1080p)",
+                    "url": "https://live-hls-apps-ajm24-fa.getaj.net/AJM24/index.m3u8"
+                },
+                {
+                    "name": "Al Jazeera Mubasher 24 (1080p)",
+                    "url": "https://live-hls-web-ajm24-fa.getaj.net/AJM24/index.m3u8"
+                },
+                {
+                    "name": "Al Jazeera Mubasher 24 (1080p)",
+                    "url": "https://live-hls-web-ajm24-fa.thehlive.com/AJM24/index.m3u8"
+                },
+                {
+                    "name": "Al Jazeera Mubasher Broadcast 2 (1080p)",
+                    "url": "https://live-hls-apps-ajm2-fa.getaj.net/AJM2/index.m3u8"
+                },
+                {
+                    "name": "Al Jazeera Mubasher Broadcast 2 (1080p)",
+                    "url": "https://live-hls-web-ajm2-fa.getaj.net/AJM2/index.m3u8"
+                },
+                {
+                    "name": "Al Jazeera Mubasher Broadcast 2 (1080p)",
+                    "url": "https://live-hls-web-ajm2-fa.thehlive.com/AJM2/index.m3u8"
+                },
+                {
+                    "name": "Al Rayyan (1080p)",
+                    "url": "https://alrayyancdn.vidgyor.com/pub-noalrayy3pwz0l/liveabr/playlist_dvr.m3u8"
+                },
+                {
+                    "name": "Al Rayyan Al Qadeem (1080p)",
+                    "url": "https://alrayyancdn.vidgyor.com/pub-nooldraybinbdh/liveabr/playlist_dvr.m3u8"
+                },
+                {
+                    "name": "Al Rayyan Old TV (720p)",
+                    "url": "https://streamer7.qna.org.qa/148136781_live/148136781_63.sdp/playlist.m3u8"
+                },
+                {
+                    "name": "Al Rayyan TV (720p)",
+                    "url": "https://streamer7.qna.org.qa/148136749_live/148136749_296.sdp/playlist.m3u8"
+                },
+                {
+                    "name": "Alaraby 2 TV (1080p)",
+                    "url": "https://origin-cae-t482536.cdn.nextologies.com/63d8c759c5db83b4/25c4f89d27a79014ALA2306/playlist.m3u8"
+                },
+                {
+                    "name": "Alaraby TV (1080p)",
+                    "url": "https://origin-cae-t482536.cdn.nextologies.com/6837800d47c40cb2/1544c5accd8e84d5ALA2306/playlist.m3u8"
+                },
+                {
+                    "name": "Alkass Three (720p)",
+                    "url": "https://streamer2.qna.org.qa/148161470_live/148161470_296.sdp/playlist.m3u8"
+                },
+                {
+                    "name": "Qatar Television (1080p)",
+                    "url": "https://live.kwikmotion.com/qtv1live/qtv1.smil/playlist.m3u8"
+                },
+                {
+                    "name": "Qatar Television (720p)",
+                    "url": "https://qatartv.akamaized.net/hls/live/2026573/qtv1/master.m3u8"
+                },
+                {
+                    "name": "Qatar Television (720p)",
+                    "url": "https://streamer1.qna.org.qa/148133273_live/148133273_63.sdp/playlist.m3u8"
+                },
+                {
+                    "name": "Qatar Television 2 (1080p)",
+                    "url": "https://live.kwikmotion.com/qtv2live/qtv2.smil/playlist.m3u8"
+                },
+                {
+                    "name": "Qatar Television 2 (720p)",
+                    "url": "https://qatartv.akamaized.net/hls/live/2026574/qtv2/master.m3u8"
+                },
+                {
+                    "name": "Qatar Television 2 (720p)",
+                    "url": "https://streamer1.qna.org.qa/148133344_live/148133344_63.sdp/playlist.m3u8"
+                }
+            ]
+        },
+        {
+            "name": "القنوات اللبنانية",
+            "channels": [
+                {
+                    "name": "Aghani Aghani TV (1080p) [Not 24/7]",
+                    "url": "https://streaming-a-1035.cdn.nextologies.com/6zj8y5nemi8a32vyjjbkv0oqx/77pcakd8reik3g8qdqnexlkmq/playlist.m3u8"
+                },
+                {
+                    "name": "Al Ittihad (552p) [Not 24/7]",
+                    "url": "http://185.105.4.151:8080/_defapp_/ittihad/index.m3u8"
+                },
+                {
+                    "name": "Al Ittihad (552p) [Not 24/7]",
+                    "url": "https://live.alittihad.tv:444/ittihad/index.m3u8"
+                },
+                {
+                    "name": "Al Jadeed (1080p)",
+                    "url": "http://185.9.2.18/chid_391/mono.m3u8"
+                },
+                {
+                    "name": "Al Manar (576p) [Not 24/7]",
+                    "url": "https://edge.fastpublish.me/live/index.m3u8"
+                },
+                {
+                    "name": "Al Mayadeen (576p)",
+                    "url": "https://mdnlv.cdn.octivid.com/almdn/smil:mpegts.stream.smil/playlist.m3u8"
+                },
+                {
+                    "name": "Aliman TV (240p) [Not 24/7]",
+                    "url": "https://svs.itworkscdn.net/alimanlive/imantv.smil/playlist.m3u8"
+                },
+                {
+                    "name": "ALWifak News TV (720p)",
+                    "url": "http://alwifaklive.info:1935/live/myStream/playlist.m3u8"
+                },
+                {
+                    "name": "Arabica TV (720p)",
+                    "url": "http://istream.binarywaves.com:8081/hls/arabica/playlist.m3u8"
+                },
+                {
+                    "name": "Charity TV",
+                    "url": "https://652930de05533.streamlock.net/live/ngrp:livestream_all/playlist.m3u8"
+                },
+                {
+                    "name": "CharityTV (1080p) [Not 24/7]",
+                    "url": "http://185.105.4.236:1935/live/ngrp:livestream_all/live.m3u8"
+                },
+                {
+                    "name": "Future TV (1080p)",
+                    "url": "https://live.kwikmotion.com/futurelive/ftv.smil/playlist.m3u8"
+                },
+                {
+                    "name": "MTV (1080p)",
+                    "url": "https://hms.pfs.gdn/v1/broadcast/mtv/playlist.m3u8"
+                },
+                {
+                    "name": "MTV (1080p)",
+                    "url": "https://shls-live-enc.edgenextcdn.net/out/v1/45ad6fbe1f7149ad9f05f8aefc38f6c0/index.m3u8"
+                },
+                {
+                    "name": "Nabaa TV (720p) [Not 24/7]",
+                    "url": "http://31.14.40.237:1935/live/Nabaa/playlist.m3u8"
+                },
+                {
+                    "name": "Nabaa TV (720p) [Not 24/7]",
+                    "url": "https://5dc7d824154d0.streamlock.net/live/Nabaa/playlist.m3u8"
+                },
+                {
+                    "name": "Nabaa TV (720p) [Not 24/7]",
+                    "url": "https://655ca86f46b1f.streamlock.net/live/Nabaa/playlist.m3u8"
+                },
+                {
+                    "name": "NBN (1080p)",
+                    "url": "http://5.9.119.146:8883/nbn/index.m3u8"
+                },
+                {
+                    "name": "Nour Al Koddas (406p) [Not 24/7]",
+                    "url": "https://svs.itworkscdn.net/nour1satlive/livestream/playlist.m3u8"
+                },
+                {
+                    "name": "Nour Al Sharq (576p)",
+                    "url": "https://svs.itworkscdn.net/nour8satlive/livestream/playlist.m3u8"
+                },
+                {
+                    "name": "Nour El Shabeb",
+                    "url": "https://svs.itworkscdn.net/nour3satlive/livestream/playlist.m3u8"
+                },
+                {
+                    "name": "Nour Mariam (576p)",
+                    "url": "https://svs.itworkscdn.net/nour9satlive/livestream/playlist.m3u8"
+                },
+                {
+                    "name": "NourSAT (576p)",
+                    "url": "https://svs.itworkscdn.net/nour4satlive/livestream/playlist.m3u8"
+                },
+                {
+                    "name": "Noursat English (576p)",
+                    "url": "https://svs.itworkscdn.net/noursatenglive/noursateng.smil/playlist.m3u8"
+                },
+                {
+                    "name": "One TV (720p)",
+                    "url": "https://hms.pfs.gdn/v1/broadcast/one/playlist.m3u8"
+                },
+                {
+                    "name": "OneFM (720p) [Not 24/7]",
+                    "url": "https://hms.pfs.gdn/v1/broadcast/onefm/playlist.m3u8"
+                },
+                {
+                    "name": "OTV (1080p)",
+                    "url": "https://otv.hibridcdn.net/otv/tv_abr/playlist.m3u8"
+                },
+                {
+                    "name": "Palestine Al Yawm (720p)",
+                    "url": "https://live.paltodaytv.com/paltv/live/playlist_sfm4s.m3u8"
+                },
+                {
+                    "name": "Red TV Lebanon (1080p)",
+                    "url": "https://live.kwikmotion.com/redtvlive/redtv.smil/playlist.m3u8"
+                },
+                {
+                    "name": "Senses TV (1080p)",
+                    "url": "http://31.14.41.69:8080/hls/sensesonline/index.m3u8"
+                },
+                {
+                    "name": "Taha TV",
+                    "url": "https://media1.livaat.com/static/TAHA_TV/playlist.m3u8"
+                },
+                {
+                    "name": "Tele Liban (720p) [Not 24/7]",
+                    "url": "https://cdn.catiacast.video/abr/ed8f807e2548db4507d2a6f4ba0c4a06/playlist.m3u8"
+                },
+                {
+                    "name": "UNews",
+                    "url": "https://cdn.catiacast.video/abr/9436b5ab3c1171ab04a59af11951292f/playlist.m3u8"
+                },
+                {
+                    "name": "Voice of Lebanon (1080p)",
+                    "url": "https://svs.itworkscdn.net/vdltvlive/vdltv.smil/playlist.m3u8"
+                }
+            ]
+        },
+        {
+            "name": "قنوات ايرانية",
+            "channels": [
+                {
+                    "name": "247 Box TV",
+                    "url": "https://hls.247box.live/hls/stream.m3u8"
+                },
+                {
+                    "name": "Abalfadhl TV",
+                    "url": "https://t.northtelecom.org/ABALFADHLTV.m3u8"
+                },
+                {
+                    "name": "AFN TV",
+                    "url": "https://bozztv.com/1gbw5/tintv2/tintv2/playlist.m3u8"
+                },
+                {
+                    "name": "Al Alam (360p)",
+                    "url": "https://live2.alalam.ir/alalam.m3u8"
+                },
+                {
+                    "name": "Al Wilayah",
+                    "url": "https://nl.livekadeh.com/hls2/alwilayah_tv.m3u8"
+                },
+                {
+                    "name": "Asil TV",
+                    "url": "https://live.asil.tv/asiltv/index.m3u8"
+                },
+                {
+                    "name": "Assirat TV (576p)",
+                    "url": "https://softverse.b-cdn.net/Assirat/assiratobs/playlist.m3u8"
+                },
+                {
+                    "name": "AVA Family",
+                    "url": "https://familyhls.avatv.live/hls/stream.m3u8"
+                },
+                {
+                    "name": "Hispan TV",
+                    "url": "https://cdnlive.presstv.ir/live/smil:live.smil/playlist.m3u8"
+                },
+                {
+                    "name": "iFilm 2",
+                    "url": "https://live.presstv.ir/hls/ifilm2.m3u8"
+                },
+                {
+                    "name": "iFilm Arabic",
+                    "url": "https://live.presstv.ir/hls/ifilmar.m3u8"
+                },
+                {
+                    "name": "iFilm English",
+                    "url": "https://live.presstv.ir/hls/ifilmen.m3u8"
+                },
+                {
+                    "name": "iFilm Persian",
+                    "url": "https://live.presstv.ir/hls/ifilmfa.m3u8"
+                },
+                {
+                    "name": "Iran Jewish TV",
+                    "url": "http://iran620.com:1935/live/IranJewishTv/playlist.m3u8"
+                },
+                {
+                    "name": "Iran Press",
+                    "url": "https://live.presstv.ir/hls/presstv_5_482/index.m3u8"
+                },
+                {
+                    "name": "ITN [Not 24/7]",
+                    "url": "https://ca-rt.onetv.app:8443/ITN/index-0.m3u8"
+                },
+                {
+                    "name": "ITV Life (2160p)",
+                    "url": "https://ca1.buximedia.com/itv/life/tracks-v1a1/mono.m3u8"
+                },
+                {
+                    "name": "ITV Persian Music (1080p)",
+                    "url": "https://ca1.buximedia.com/itv/persian/tracks-v1a1/mono.m3u8"
+                },
+                {
+                    "name": "Mihan TV",
+                    "url": "https://iptv.mihantv.com/mihantv/playlist.m3u8"
+                },
+                {
+                    "name": "Mohabat TV (540p)",
+                    "url": "http://204.11.235.251:1935/live_transcoder/ngrp:mohabat.stream_all/playlist.m3u8"
+                },
+                {
+                    "name": "Mohabat TV (540p)",
+                    "url": "https://5acf9f9415a10.streamlock.net/live_transcoder/ngrp:mohabat.stream_all/playlist.m3u8"
+                },
+                {
+                    "name": "Negah TV",
+                    "url": "https://iptv.negahtv.com/negahtv/playlist.m3u8"
+                },
+                {
+                    "name": "OXIR TV",
+                    "url": "https://hls.oxir.live/hls/stream.m3u8"
+                },
+                {
+                    "name": "Payvand TV [Not 24/7]",
+                    "url": "https://uni6rtmp.tulix.tv/ucur1/Payvand/playlist.m3u8"
+                },
+                {
+                    "name": "Press TV (720p)",
+                    "url": "https://cloud.odysee.live/content/26bcbcc342a5b143578f27dbfaf000201f06e417/master.m3u8"
+                },
+                {
+                    "name": "Press TV",
+                    "url": "https://live.presstv.ir/hls/presstv.m3u8"
+                },
+                {
+                    "name": "Press TV French (1080p)",
+                    "url": "https://live4.presstv.ir/live/smil:presstvfr.smil/playlist.m3u8"
+                },
+                {
+                    "name": "RasoulallahTv (1080p)",
+                    "url": "https://avr.host247.net/live/rasoulallahtv/playlist.m3u8"
+                },
+                {
+                    "name": "SNN TV [Not 24/7]",
+                    "url": "https://live2.snn.ir/hls/snn2_hd720/index.m3u8"
+                },
+                {
+                    "name": "TBN Nejat TV",
+                    "url": "https://hls.nejat.live/hls/stream.m3u8"
+                },
+                {
+                    "name": "VOX1",
+                    "url": "https://hls.vox1.live/hls/stream.m3u8"
+                },
+                {
+                    "name": "WiseHumanTv",
+                    "url": "https://avr.host247.net/live/WiseHumanTv/playlist.m3u8"
+                },
+                {
+                    "name": "YourTime TV",
+                    "url": "https://hls.yourtime.live/hls/stream.m3u8"
+                }
+            ]
+        },
+        {
+            "name": "اخبار",
+            "channels": [
+                {
+                    "name": "قناة الجزيرة",
+                    "url": "https://manifest.googlevideo.com/api/manifest/hls_playlist/expire/1767990962/ei/UhJhaYv8M4qMgMMPiJqswAc/ip/204.157.183.245/id/bNyUyrR0PHo.3/itag/96/source/yt_live_broadcast/requiressl/yes/ratebypass/yes/live/1/sgoap/gir%3Dyes%3Bitag%3D140/sgovp/gir%3Dyes%3Bitag%3D137/rqh/1/hls_chunk_host/rr1---sn-54o5o-cbfl.googlevideo.com/xpc/EgVo2aDSNQ%3D%3D/playlist_duration/30/manifest_duration/30/bui/AW-iu_rxFeQd7ovgY5V4DcU7SPceAjfblj341XDfr9agiL_HLkANftKMfCelZ1uqtTQ6enLBNlDYYUD2/spc/q5xjPH_jTsRSEEA2iXaE/vprv/1/playlist_type/DVR/initcwndbps/697500/met/1767969379,/mh/dN/mip/38.3.231.225/mm/44/mn/sn-54o5o-cbfl/ms/lva/mv/m/mvi/1/pl/24/rms/lva,lva/dover/11/pacing/0/keepalive/yes/fexp/51552689,51565116,51565681,51580968/mt/1767968433/sparams/expire,ei,ip,id,itag,source,requiressl,ratebypass,live,sgoap,sgovp,rqh,xpc,playlist_duration,manifest_duration,bui,spc,vprv,playlist_type/sig/AJfQdSswRAIgMym8bEAe1EOwI3RCYmVCEP5t1n7IoQ-LKZZACyD3Nh4CIAVjvoYtPCvraorH1NuuBjuWjT8n187URm5ODf8ViqCW/lsparams/hls_chunk_host,initcwndbps,met,mh,mip,mm,mn,ms,mv,mvi,pl,rms/lsig/APaTxxMwRgIhAIOmoHgNY6L4W46jTaC2kHmfSzTHdqCks0YmbU65wLhWAiEA8uKIk02LMOr5xA-Rr6uJACgyLQoj1iEYGZOZ66ELZwM%3D/playlist/index.m3u8"
+                }
+            ]
+        },
+        {
             "name": "عربي عام",
             "channels": [
                 {
@@ -278,320 +742,6 @@
                 {
                     "name": "Al Yaum TV (1080p)",
                     "url": "https://hlspackager.akamaized.net/live/DB/ALYAUM_TV/HLS/ALYAUM_TV.m3u8"
-                }
-            ]
-        },
-        {
-            "name": "قطر",
-            "channels": [
-                {
-                    "name": "Al Araby TV (1080p)",
-                    "url": "https://live.kwikmotion.com/alaraby1live/alaraby_abr/playlist.m3u8"
-                },
-                {
-                    "name": "Al Araby TV (1080p)",
-                    "url": "https://stream.ads.ottera.tv/playlist.m3u8?network_id=5616"
-                },
-                {
-                    "name": "Al Araby TV 2 (1080p)",
-                    "url": "https://live.kwikmotion.com/alaraby2live/alaraby2.smil/playlist.m3u8"
-                },
-                {
-                    "name": "Al Araby TV 2 (1080p)",
-                    "url": "https://stream.ads.ottera.tv/playlist.m3u8?network_id=5617"
-                },
-                {
-                    "name": "Al Jazeera (1080p)",
-                    "url": "https://live-hls-apps-aja-fa.getaj.net/AJA/index.m3u8"
-                },
-                {
-                    "name": "Al Jazeera (1080p)",
-                    "url": "https://live-hls-apps-aja-v3-fa.getaj.net/AJA/index.m3u8"
-                },
-                {
-                    "name": "Al Jazeera (1080p)",
-                    "url": "https://live-hls-web-aja-fa.thehlive.com/AJA/index.m3u8"
-                },
-                {
-                    "name": "Al Jazeera",
-                    "url": "https://dash4.antik.sk/live/test_aljazeera/playlist.m3u8"
-                },
-                {
-                    "name": "Al Jazeera Arabic (1080p)",
-                    "url": "https://live-hls-v3-aja.getaj.net/AJA-V3/index.m3u8"
-                },
-                {
-                    "name": "Al Jazeera Arabic (1080p)",
-                    "url": "https://live-hls-web-aja.getaj.net/AJA/index.m3u8"
-                },
-                {
-                    "name": "Al Jazeera Documentary (1080p) [Geo-blocked]",
-                    "url": "https://live-hls-apps-ajd-fa.getaj.net/AJD/index.m3u8"
-                },
-                {
-                    "name": "Al Jazeera Documentary (1080p) [Geo-blocked]",
-                    "url": "https://live-hls-apps-ajd-v3-fa.getaj.net/AJD/index.m3u8"
-                },
-                {
-                    "name": "Al Jazeera Documentary (1080p) [Geo-blocked]",
-                    "url": "https://live-hls-web-ajd-fa.thehlive.com/AJD/index.m3u8"
-                },
-                {
-                    "name": "Al Jazeera Documentary (1080p) [Geo-blocked]",
-                    "url": "https://live-hls-web-ajd.getaj.net/AJD/index.m3u8"
-                },
-                {
-                    "name": "Al Jazeera English (1080p)",
-                    "url": "https://live-hls-apps-aje-fa.getaj.net/AJE/index.m3u8"
-                },
-                {
-                    "name": "Al Jazeera English (1080p)",
-                    "url": "https://live-hls-apps-aje-v3-fa.getaj.net/AJE/index.m3u8"
-                },
-                {
-                    "name": "Al Jazeera English (1080p)",
-                    "url": "https://live-hls-web-aje-fa.thehlive.com/AJE/index.m3u8"
-                },
-                {
-                    "name": "Al Jazeera English",
-                    "url": "https://d1cy85syyhvqz5.cloudfront.net/v1/master/7b67fbda7ab859400a821e9aa0deda20ab7ca3d2/aljazeeraLive/AJE/index.m3u8"
-                },
-                {
-                    "name": "Al Jazeera English",
-                    "url": "https://dash4.antik.sk/live/test_aljazeera_eng/playlist.m3u8"
-                },
-                {
-                    "name": "Al Jazeera English",
-                    "url": "https://viamotionhsi.netplus.ch/live/eds/aljazeera/browser-HLS8/aljazeera.m3u8"
-                },
-                {
-                    "name": "Al Jazeera Mubasher (1080p)",
-                    "url": "https://live-hls-apps-ajm-fa.getaj.net/AJM/index.m3u8"
-                },
-                {
-                    "name": "Al Jazeera Mubasher (1080p)",
-                    "url": "https://live-hls-apps-ajm-v3-fa.getaj.net/AJM/index.m3u8"
-                },
-                {
-                    "name": "Al Jazeera Mubasher (1080p)",
-                    "url": "https://live-hls-web-ajm-fa.thehlive.com/AJM/index.m3u8"
-                },
-                {
-                    "name": "Al Jazeera Mubasher (1080p)",
-                    "url": "https://live-hls-web-ajm.getaj.net/AJM/index.m3u8"
-                },
-                {
-                    "name": "Al Jazeera Mubasher 24 (1080p)",
-                    "url": "https://live-hls-apps-ajm24-fa.getaj.net/AJM24/index.m3u8"
-                },
-                {
-                    "name": "Al Jazeera Mubasher 24 (1080p)",
-                    "url": "https://live-hls-web-ajm24-fa.getaj.net/AJM24/index.m3u8"
-                },
-                {
-                    "name": "Al Jazeera Mubasher 24 (1080p)",
-                    "url": "https://live-hls-web-ajm24-fa.thehlive.com/AJM24/index.m3u8"
-                },
-                {
-                    "name": "Al Jazeera Mubasher Broadcast 2 (1080p)",
-                    "url": "https://live-hls-apps-ajm2-fa.getaj.net/AJM2/index.m3u8"
-                },
-                {
-                    "name": "Al Jazeera Mubasher Broadcast 2 (1080p)",
-                    "url": "https://live-hls-web-ajm2-fa.getaj.net/AJM2/index.m3u8"
-                },
-                {
-                    "name": "Al Jazeera Mubasher Broadcast 2 (1080p)",
-                    "url": "https://live-hls-web-ajm2-fa.thehlive.com/AJM2/index.m3u8"
-                },
-                {
-                    "name": "Al Rayyan (1080p)",
-                    "url": "https://alrayyancdn.vidgyor.com/pub-noalrayy3pwz0l/liveabr/playlist_dvr.m3u8"
-                },
-                {
-                    "name": "Al Rayyan Al Qadeem (1080p)",
-                    "url": "https://alrayyancdn.vidgyor.com/pub-nooldraybinbdh/liveabr/playlist_dvr.m3u8"
-                },
-                {
-                    "name": "Al Rayyan Old TV (720p)",
-                    "url": "https://streamer7.qna.org.qa/148136781_live/148136781_63.sdp/playlist.m3u8"
-                },
-                {
-                    "name": "Al Rayyan TV (720p)",
-                    "url": "https://streamer7.qna.org.qa/148136749_live/148136749_296.sdp/playlist.m3u8"
-                },
-                {
-                    "name": "Alaraby 2 TV (1080p)",
-                    "url": "https://origin-cae-t482536.cdn.nextologies.com/63d8c759c5db83b4/25c4f89d27a79014ALA2306/playlist.m3u8"
-                },
-                {
-                    "name": "Alaraby TV (1080p)",
-                    "url": "https://origin-cae-t482536.cdn.nextologies.com/6837800d47c40cb2/1544c5accd8e84d5ALA2306/playlist.m3u8"
-                },
-                {
-                    "name": "Alkass Three (720p)",
-                    "url": "https://streamer2.qna.org.qa/148161470_live/148161470_296.sdp/playlist.m3u8"
-                },
-                {
-                    "name": "Qatar Television (1080p)",
-                    "url": "https://live.kwikmotion.com/qtv1live/qtv1.smil/playlist.m3u8"
-                },
-                {
-                    "name": "Qatar Television (720p)",
-                    "url": "https://qatartv.akamaized.net/hls/live/2026573/qtv1/master.m3u8"
-                },
-                {
-                    "name": "Qatar Television (720p)",
-                    "url": "https://streamer1.qna.org.qa/148133273_live/148133273_63.sdp/playlist.m3u8"
-                },
-                {
-                    "name": "Qatar Television 2 (1080p)",
-                    "url": "https://live.kwikmotion.com/qtv2live/qtv2.smil/playlist.m3u8"
-                },
-                {
-                    "name": "Qatar Television 2 (720p)",
-                    "url": "https://qatartv.akamaized.net/hls/live/2026574/qtv2/master.m3u8"
-                },
-                {
-                    "name": "Qatar Television 2 (720p)",
-                    "url": "https://streamer1.qna.org.qa/148133344_live/148133344_63.sdp/playlist.m3u8"
-                }
-            ]
-        },
-        {
-            "name": "قنوات ايرانية",
-            "channels": [
-                {
-                    "name": "247 Box TV",
-                    "url": "https://hls.247box.live/hls/stream.m3u8"
-                },
-                {
-                    "name": "Abalfadhl TV",
-                    "url": "https://t.northtelecom.org/ABALFADHLTV.m3u8"
-                },
-                {
-                    "name": "AFN TV",
-                    "url": "https://bozztv.com/1gbw5/tintv2/tintv2/playlist.m3u8"
-                },
-                {
-                    "name": "Al Alam (360p)",
-                    "url": "https://live2.alalam.ir/alalam.m3u8"
-                },
-                {
-                    "name": "Al Wilayah",
-                    "url": "https://nl.livekadeh.com/hls2/alwilayah_tv.m3u8"
-                },
-                {
-                    "name": "Asil TV",
-                    "url": "https://live.asil.tv/asiltv/index.m3u8"
-                },
-                {
-                    "name": "Assirat TV (576p)",
-                    "url": "https://softverse.b-cdn.net/Assirat/assiratobs/playlist.m3u8"
-                },
-                {
-                    "name": "AVA Family",
-                    "url": "https://familyhls.avatv.live/hls/stream.m3u8"
-                },
-                {
-                    "name": "Hispan TV",
-                    "url": "https://cdnlive.presstv.ir/live/smil:live.smil/playlist.m3u8"
-                },
-                {
-                    "name": "iFilm 2",
-                    "url": "https://live.presstv.ir/hls/ifilm2.m3u8"
-                },
-                {
-                    "name": "iFilm Arabic",
-                    "url": "https://live.presstv.ir/hls/ifilmar.m3u8"
-                },
-                {
-                    "name": "iFilm English",
-                    "url": "https://live.presstv.ir/hls/ifilmen.m3u8"
-                },
-                {
-                    "name": "iFilm Persian",
-                    "url": "https://live.presstv.ir/hls/ifilmfa.m3u8"
-                },
-                {
-                    "name": "Iran Jewish TV",
-                    "url": "http://iran620.com:1935/live/IranJewishTv/playlist.m3u8"
-                },
-                {
-                    "name": "Iran Press",
-                    "url": "https://live.presstv.ir/hls/presstv_5_482/index.m3u8"
-                },
-                {
-                    "name": "ITN [Not 24/7]",
-                    "url": "https://ca-rt.onetv.app:8443/ITN/index-0.m3u8"
-                },
-                {
-                    "name": "ITV Life (2160p)",
-                    "url": "https://ca1.buximedia.com/itv/life/tracks-v1a1/mono.m3u8"
-                },
-                {
-                    "name": "ITV Persian Music (1080p)",
-                    "url": "https://ca1.buximedia.com/itv/persian/tracks-v1a1/mono.m3u8"
-                },
-                {
-                    "name": "Mihan TV",
-                    "url": "https://iptv.mihantv.com/mihantv/playlist.m3u8"
-                },
-                {
-                    "name": "Mohabat TV (540p)",
-                    "url": "http://204.11.235.251:1935/live_transcoder/ngrp:mohabat.stream_all/playlist.m3u8"
-                },
-                {
-                    "name": "Mohabat TV (540p)",
-                    "url": "https://5acf9f9415a10.streamlock.net/live_transcoder/ngrp:mohabat.stream_all/playlist.m3u8"
-                },
-                {
-                    "name": "Negah TV",
-                    "url": "https://iptv.negahtv.com/negahtv/playlist.m3u8"
-                },
-                {
-                    "name": "OXIR TV",
-                    "url": "https://hls.oxir.live/hls/stream.m3u8"
-                },
-                {
-                    "name": "Payvand TV [Not 24/7]",
-                    "url": "https://uni6rtmp.tulix.tv/ucur1/Payvand/playlist.m3u8"
-                },
-                {
-                    "name": "Press TV (720p)",
-                    "url": "https://cloud.odysee.live/content/26bcbcc342a5b143578f27dbfaf000201f06e417/master.m3u8"
-                },
-                {
-                    "name": "Press TV",
-                    "url": "https://live.presstv.ir/hls/presstv.m3u8"
-                },
-                {
-                    "name": "Press TV French (1080p)",
-                    "url": "https://live4.presstv.ir/live/smil:presstvfr.smil/playlist.m3u8"
-                },
-                {
-                    "name": "RasoulallahTv (1080p)",
-                    "url": "https://avr.host247.net/live/rasoulallahtv/playlist.m3u8"
-                },
-                {
-                    "name": "SNN TV [Not 24/7]",
-                    "url": "https://live2.snn.ir/hls/snn2_hd720/index.m3u8"
-                },
-                {
-                    "name": "TBN Nejat TV",
-                    "url": "https://hls.nejat.live/hls/stream.m3u8"
-                },
-                {
-                    "name": "VOX1",
-                    "url": "https://hls.vox1.live/hls/stream.m3u8"
-                },
-                {
-                    "name": "WiseHumanTv",
-                    "url": "https://avr.host247.net/live/WiseHumanTv/playlist.m3u8"
-                },
-                {
-                    "name": "YourTime TV",
-                    "url": "https://hls.yourtime.live/hls/stream.m3u8"
                 }
             ]
         },
@@ -885,165 +1035,6 @@
                 {
                     "name": "Zarok TV Sorani (720p)",
                     "url": "https://zindisorani.zaroktv.com.tr/hls/stream.m3u8"
-                }
-            ]
-        },
-        {
-            "name": "القنوات اللبنانية",
-            "channels": [
-                {
-                    "name": "Aghani Aghani TV (1080p) [Not 24/7]",
-                    "url": "https://streaming-a-1035.cdn.nextologies.com/6zj8y5nemi8a32vyjjbkv0oqx/77pcakd8reik3g8qdqnexlkmq/playlist.m3u8"
-                },
-                {
-                    "name": "Al Ittihad (552p) [Not 24/7]",
-                    "url": "http://185.105.4.151:8080/_defapp_/ittihad/index.m3u8"
-                },
-                {
-                    "name": "Al Ittihad (552p) [Not 24/7]",
-                    "url": "https://live.alittihad.tv:444/ittihad/index.m3u8"
-                },
-                {
-                    "name": "Al Jadeed (1080p)",
-                    "url": "http://185.9.2.18/chid_391/mono.m3u8"
-                },
-                {
-                    "name": "Al Manar (576p) [Not 24/7]",
-                    "url": "https://edge.fastpublish.me/live/index.m3u8"
-                },
-                {
-                    "name": "Al Mayadeen (576p)",
-                    "url": "https://mdnlv.cdn.octivid.com/almdn/smil:mpegts.stream.smil/playlist.m3u8"
-                },
-                {
-                    "name": "Aliman TV (240p) [Not 24/7]",
-                    "url": "https://svs.itworkscdn.net/alimanlive/imantv.smil/playlist.m3u8"
-                },
-                {
-                    "name": "ALWifak News TV (720p)",
-                    "url": "http://alwifaklive.info:1935/live/myStream/playlist.m3u8"
-                },
-                {
-                    "name": "Arabica TV (720p)",
-                    "url": "http://istream.binarywaves.com:8081/hls/arabica/playlist.m3u8"
-                },
-                {
-                    "name": "Charity TV",
-                    "url": "https://652930de05533.streamlock.net/live/ngrp:livestream_all/playlist.m3u8"
-                },
-                {
-                    "name": "CharityTV (1080p) [Not 24/7]",
-                    "url": "http://185.105.4.236:1935/live/ngrp:livestream_all/live.m3u8"
-                },
-                {
-                    "name": "Future TV (1080p)",
-                    "url": "https://live.kwikmotion.com/futurelive/ftv.smil/playlist.m3u8"
-                },
-                {
-                    "name": "MTV (1080p)",
-                    "url": "https://hms.pfs.gdn/v1/broadcast/mtv/playlist.m3u8"
-                },
-                {
-                    "name": "MTV (1080p)",
-                    "url": "https://shls-live-enc.edgenextcdn.net/out/v1/45ad6fbe1f7149ad9f05f8aefc38f6c0/index.m3u8"
-                },
-                {
-                    "name": "Nabaa TV (720p) [Not 24/7]",
-                    "url": "http://31.14.40.237:1935/live/Nabaa/playlist.m3u8"
-                },
-                {
-                    "name": "Nabaa TV (720p) [Not 24/7]",
-                    "url": "https://5dc7d824154d0.streamlock.net/live/Nabaa/playlist.m3u8"
-                },
-                {
-                    "name": "Nabaa TV (720p) [Not 24/7]",
-                    "url": "https://655ca86f46b1f.streamlock.net/live/Nabaa/playlist.m3u8"
-                },
-                {
-                    "name": "NBN (1080p)",
-                    "url": "http://5.9.119.146:8883/nbn/index.m3u8"
-                },
-                {
-                    "name": "Nour Al Koddas (406p) [Not 24/7]",
-                    "url": "https://svs.itworkscdn.net/nour1satlive/livestream/playlist.m3u8"
-                },
-                {
-                    "name": "Nour Al Sharq (576p)",
-                    "url": "https://svs.itworkscdn.net/nour8satlive/livestream/playlist.m3u8"
-                },
-                {
-                    "name": "Nour El Shabeb",
-                    "url": "https://svs.itworkscdn.net/nour3satlive/livestream/playlist.m3u8"
-                },
-                {
-                    "name": "Nour Mariam (576p)",
-                    "url": "https://svs.itworkscdn.net/nour9satlive/livestream/playlist.m3u8"
-                },
-                {
-                    "name": "NourSAT (576p)",
-                    "url": "https://svs.itworkscdn.net/nour4satlive/livestream/playlist.m3u8"
-                },
-                {
-                    "name": "Noursat English (576p)",
-                    "url": "https://svs.itworkscdn.net/noursatenglive/noursateng.smil/playlist.m3u8"
-                },
-                {
-                    "name": "One TV (720p)",
-                    "url": "https://hms.pfs.gdn/v1/broadcast/one/playlist.m3u8"
-                },
-                {
-                    "name": "OneFM (720p) [Not 24/7]",
-                    "url": "https://hms.pfs.gdn/v1/broadcast/onefm/playlist.m3u8"
-                },
-                {
-                    "name": "OTV (1080p)",
-                    "url": "https://otv.hibridcdn.net/otv/tv_abr/playlist.m3u8"
-                },
-                {
-                    "name": "Palestine Al Yawm (720p)",
-                    "url": "https://live.paltodaytv.com/paltv/live/playlist_sfm4s.m3u8"
-                },
-                {
-                    "name": "Red TV Lebanon (1080p)",
-                    "url": "https://live.kwikmotion.com/redtvlive/redtv.smil/playlist.m3u8"
-                },
-                {
-                    "name": "Senses TV (1080p)",
-                    "url": "http://31.14.41.69:8080/hls/sensesonline/index.m3u8"
-                },
-                {
-                    "name": "Taha TV",
-                    "url": "https://media1.livaat.com/static/TAHA_TV/playlist.m3u8"
-                },
-                {
-                    "name": "Tele Liban (720p) [Not 24/7]",
-                    "url": "https://cdn.catiacast.video/abr/ed8f807e2548db4507d2a6f4ba0c4a06/playlist.m3u8"
-                },
-                {
-                    "name": "UNews",
-                    "url": "https://cdn.catiacast.video/abr/9436b5ab3c1171ab04a59af11951292f/playlist.m3u8"
-                },
-                {
-                    "name": "Voice of Lebanon (1080p)",
-                    "url": "https://svs.itworkscdn.net/vdltvlive/vdltv.smil/playlist.m3u8"
-                }
-            ]
-        },
-        {
-            "name": "الاخبار",
-            "channels": [
-                {
-                    "name": "قناة الحدث",
-                    "url": "https://manifest.googlevideo.com/api/manifest/hls_playlist/expire/1767990283/ei/qw9hacHdFt6kzPsP1s2s4AE/ip/38.3.231.225/id/zi9knajcejY.1/itag/96/source/yt_live_broadcast/requiressl/yes/ratebypass/yes/live/1/sgoap/gir%3Dyes%3Bitag%3D140/sgovp/gir%3Dyes%3Bitag%3D137/rqh/1/hls_chunk_host/rr2---sn-54o5o-cbfl.googlevideo.com/xpc/EgVo2aDSNQ%3D%3D/playlist_duration/30/manifest_duration/30/bui/AYUSA3Cw-bwZWgYhaBGv0_lu1zE8JCoE0vVa9BA0vonYh0DBwsU6TCKb6WaMA0nK9_z0SfFKEg53zYtm/spc/wH4Qqzo-Kgoyhs5zA3e3MwdVy0am_FLg8_4JMMmA2W69GuX_zxEJZ3nYVFYP-rI7EK8/vprv/1/ns/6WalTrL2OMl4ceDxKkt_heIR/playlist_type/DVR/initcwndbps/697500/met/1767968705,/mh/G-/mm/44/mn/sn-54o5o-cbfl/ms/lva/mv/m/mvi/2/pl/24/rms/lva,lva/dover/11/pacing/0/keepalive/yes/fexp/51355912,51552689,51565116,51565682,51580968/n/VNZEgCADoslHZOPveV1/mt/1767968433/sparams/expire,ei,ip,id,itag,source,requiressl,ratebypass,live,sgoap,sgovp,rqh,xpc,playlist_duration,manifest_duration,bui,spc,vprv,ns,playlist_type/sig/AJfQdSswRQIgdKfOi2FIhEZ0ApIlJanUHwz-fK-ohxBwQGTAJ2pLVtgCIQCpOtyHhzdNI4vPeDI1yNppel3XWVfZrUEit5z9Rc6mXg%3D%3D/lsparams/hls_chunk_host,initcwndbps,met,mh,mm,mn,ms,mv,mvi,pl,rms/lsig/APaTxxMwRAIgUwYDFCNO16T-eqHaW7x7fqvOufFy_NTkLL8Xsgnai5gCIGfU2fscHEsoZsuMPGHNbPaT5L_e9EFn3thwD1WiP8IK/playlist/index.m3u8"
-                }
-            ]
-        },
-        {
-            "name": "اخبار",
-            "channels": [
-                {
-                    "name": "قناة الجزيرة",
-                    "url": "https://manifest.googlevideo.com/api/manifest/hls_playlist/expire/1767990313/ei/yQ9haf3-LqTt6dsPmPWu6Qs/ip/38.3.231.225/id/bNyUyrR0PHo.3/itag/96/source/yt_live_broadcast/requiressl/yes/ratebypass/yes/live/1/sgoap/gir%3Dyes%3Bitag%3D140/sgovp/gir%3Dyes%3Bitag%3D137/rqh/1/hls_chunk_host/rr1---sn-54o5o-cbfl.googlevideo.com/xpc/EgVo2aDSNQ%3D%3D/playlist_duration/30/manifest_duration/30/bui/AW-iu_qPM4p1E_BTfhMFFao7bK8u7EE3-vT2a14Oh68O_CUM7C3lJti147Bqbs4d7BROa2K3M_wAyf3Y/spc/q5xjPDVb2c5NClVNHuHNmAaS71xs94ZfSkY1W8ST5jQwjuguC3U4pQQlwh33qAtkkuE/vprv/1/ns/ebE20Jx3H9yA6uh4gGJuxfAR/playlist_type/DVR/initcwndbps/697500/met/1767968737,/mh/dN/mm/44/mn/sn-54o5o-cbfl/ms/lva/mv/m/mvi/1/pl/24/rms/lva,lva/dover/11/pacing/0/keepalive/yes/fexp/51355912,51552689,51565115,51565681,51580968/n/3zHDdxoeP8xlarNL04v/mt/1767968433/sparams/expire,ei,ip,id,itag,source,requiressl,ratebypass,live,sgoap,sgovp,rqh,xpc,playlist_duration,manifest_duration,bui,spc,vprv,ns,playlist_type/sig/AJfQdSswRAIgeEPJhWnZiLjgm9aL6DW1QK7fcvk_qjbYQ0aHejTDnuYCIHWnOBNFX9E6QFvvl63k-KE3U8SGkKaPbdEqGyMcGGKy/lsparams/hls_chunk_host,initcwndbps,met,mh,mm,mn,ms,mv,mvi,pl,rms/lsig/APaTxxMwRQIgfU6EM8w5MKioae9VhDkIG32FQs5yKSX7FxuIBRniZZECIQCdTdyrxpquYWU0WxsNbytXkC_2R3ryAtNcCyOVpLCzzw%3D%3D/playlist/index.m3u8"
                 }
             ]
         }
