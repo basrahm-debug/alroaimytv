@@ -1,0 +1,13 @@
+# Python
+.venv/
+__pycache__/
+*.pyc
+
+# Local folders
+local/
+FETCH_HEAD
+git/
+
+# OS
+.DS_Store
+Thumbs.db
