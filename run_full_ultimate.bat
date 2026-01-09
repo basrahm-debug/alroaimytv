@@ -1,6 +1,5 @@
 @echo off
 SETLOCAL
-
 chcp 65001
 
 echo ------------------------------

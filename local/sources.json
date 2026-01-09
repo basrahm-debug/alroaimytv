@@ -1,0 +1,25 @@
+{
+    "sources": [
+        {
+            "name": "قائمة القرآن",
+            "type": "m3u",
+            "url": "https://example.com/quran.m3u",
+            "category": "Quran",
+            "enabled": true
+        },
+        {
+            "name": "BBC News",
+            "type": "direct",
+            "url": "http://stream.example.com/bbc",
+            "category": "News",
+            "enabled": true
+        },
+        {
+            "name": "Al Quran Live YouTube",
+            "type": "youtube",
+            "url": "https://www.youtube.com/c/AlQuranLive",
+            "category": "Quran",
+            "enabled": true
+        }
+    ]
+}

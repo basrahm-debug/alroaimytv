@@ -1,1 +1,22 @@
-[]
+{
+    "categories": [
+        {
+            "name": "Quran",
+            "channels": [
+                {
+                    "name": "القرآن الكريم",
+                    "url": "https://example.com/quran.m3u"
+                }
+            ]
+        },
+        {
+            "name": "News",
+            "channels": [
+                {
+                    "name": "Al Jazeera",
+                    "url": "https://example.com/aljazeera.m3u"
+                }
+            ]
+        }
+    ]
+}
