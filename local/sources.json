@@ -1,27 +1,6 @@
 {
   "sources": [
     {
-      "name": "قائمة القرآن",
-      "type": "m3u",
-      "url": "https://example.com/quran.m3u",
-      "category": "Quran",
-      "enabled": true
-    },
-    {
-      "name": "BBC News",
-      "type": "direct",
-      "url": "http://stream.example.com/bbc",
-      "category": "News",
-      "enabled": true
-    },
-    {
-      "name": "Al Quran Live YouTube",
-      "type": "youtube",
-      "url": "https://www.youtube.com/c/AlQuranLive",
-      "category": "Quran",
-      "enabled": true
-    },
-    {
       "name": "قنوات عربية عامة",
       "url": "https://raw.githubusercontent.com/iptv-org/iptv/refs/heads/master/streams/ae.m3u",
       "type": "m3u",
@@ -33,6 +12,13 @@
       "url": "https://raw.githubusercontent.com/iptv-org/iptv/refs/heads/master/streams/iq.m3u",
       "type": "m3u",
       "category": "القنوات العراقية",
+      "enabled": true
+    },
+    {
+      "name": "القنوات الايرانبة",
+      "url": "https://raw.githubusercontent.com/iptv-org/iptv/refs/heads/master/streams/ir.m3u",
+      "type": "m3u",
+      "category": "قنوات ايرانية",
       "enabled": true
     }
   ]
