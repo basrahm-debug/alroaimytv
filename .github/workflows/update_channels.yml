@@ -1,0 +1,37 @@
+name: Auto Update Channels
+
+on:
+  push:
+    branches:
+      - main       # أي push على الفرع الرئيسي
+  schedule:
+    - cron: '0 * * * *' # تحديث تلقائي كل ساعة (يمكن تغييره حسب الحاجة)
+
+jobs:
+  update-channels:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v3
+
+    - name: Setup Python
+      uses: actions/setup-python@v4
+      with:
+        python-version: '3.11'  # أو النسخة التي تستخدمها محليًا
+
+    - name: Install dependencies
+      run: |
+        python -m pip install --upgrade pip
+        if [ -f requirements.txt ]; then pip install -r requirements.txt; fi
+
+    - name: Run update_channels.py
+      run: python scripts/update_channels.py
+
+    - name: Commit updated channels.json
+      run: |
+        git config user.name "GitHub Actions"
+        git config user.email "actions@github.com"
+        git add remote/channels.json
+        git commit -m "Auto-update channels.json [GitHub Actions]" || echo "No changes to commit"
+        git push origin main
