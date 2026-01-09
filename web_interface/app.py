@@ -62,14 +62,29 @@ def index():
 
     return render_template("index.html", sources=data["sources"])
 
+import threading
+
+update_running = False
+
+def update_task():
+    global update_running
+    update_running = True
+    try:
+        subprocess.run(["python", UPDATE_SCRIPT_PATH], check=True)
+    except Exception as e:
+        print(f"Update error: {e}")
+    finally:
+        update_running = False
+
 @app.route("/update")
 def run_update():
-    try:
-        # تشغيل سكربت التحديث في الخلفية
-        subprocess.run(["python", UPDATE_SCRIPT_PATH], check=True)
-        flash("تم تحديث القنوات من المصادر بنجاح!", "success")
-    except Exception as e:
-        flash(f"فشل التحديث: {str(e)}", "error")
+    global update_running
+    if update_running:
+        flash("التحديث قيد التنفيذ بالفعل في الخلفية...", "info")
+    else:
+        thread = threading.Thread(target=update_task)
+        thread.start()
+        flash("بدأ تحديث القنوات في الخلفية. سيتم تحديث القائمة فور الانتهاء (قد يستغرق دقائق).", "success")
     return redirect(url_for("index"))
 
 if __name__ == "__main__":
