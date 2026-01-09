@@ -34,20 +34,6 @@
       "type": "m3u",
       "category": "قطر",
       "enabled": true
-    },
-    {
-      "name": "قناة الحدث",
-      "url": "https://www.youtube.com/watch?v=zi9knajcejY&pp=ygUK2YXYqNin2LTYsQ%3D%3D",
-      "type": "youtube",
-      "category": "الاخبار",
-      "enabled": true
-    },
-    {
-      "name": "قناة الجزيرة",
-      "url": "https://www.youtube.com/watch?v=bNyUyrR0PHo&pp=ygUK2YXYqNin2LTYsQ%3D%3D",
-      "type": "youtube",
-      "category": "الاخبار",
-      "enabled": true
     }
   ]
 }
