@@ -1,0 +1,26 @@
+{
+  "categories": [
+    {
+      "name": "Quran",
+      "channels": [
+        {
+          "name": "القرآن الكريم",
+          "url": "https://example.com/quran.m3u"
+        }
+      ]
+    },
+    {
+      "name": "News",
+      "channels": [
+        {
+          "name": "Al Jazeera",
+          "url": "https://example.com/aljazeera.m3u"
+        },
+        {
+          "name": "العراقية الريلاضية",
+          "url": "https://admn-live-cdn-lb.starzplayarabia.com/out/v1/admn_tv_enc/emarat_tv/emarat_tv_hls_nd/index.m3u8"
+        }
+      ]
+    }
+  ]
+}

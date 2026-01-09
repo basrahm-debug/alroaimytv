@@ -3,49 +3,104 @@
 
 <head>
     <meta charset="UTF-8">
-    <title>IPTV Channels</title>
+    <title>إضافة قنوات IPTV</title>
     <style>
         body {
-            font-family: Arial, sans-serif;
+            font-family: Arial;
             direction: rtl;
+            background: #f0f2f5;
             padding: 20px;
-            background: #f4f4f4;
         }
 
-        h2 {
-            color: #333;
-        }
-
-        ul {
-            list-style: none;
-            padding: 0;
-        }
-
-        li {
-            margin-bottom: 5px;
-        }
-
-        a {
-            text-decoration: none;
+        h1 {
+            text-align: center;
             color: #007BFF;
         }
 
-        a:hover {
-            text-decoration: underline;
+        form {
+            max-width: 500px;
+            margin: 0 auto;
+            background: white;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        label {
+            display: block;
+            margin-top: 10px;
+            font-weight: bold;
+        }
+
+        input,
+        select {
+            width: 100%;
+            padding: 8px;
+            margin-top: 5px;
+            border-radius: 5px;
+            border: 1px solid #ccc;
+        }
+
+        button {
+            margin-top: 15px;
+            padding: 10px 20px;
+            background-color: #28a745;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background-color: #218838;
+        }
+
+        .flash {
+            margin-top: 15px;
+            padding: 10px;
+            border-radius: 5px;
+        }
+
+        .success {
+            background-color: #d4edda;
+            color: #155724;
+        }
+
+        .error {
+            background-color: #f8d7da;
+            color: #721c24;
         }
     </style>
 </head>
 
 <body>
-    <h1>قنوات IPTV</h1>
-    {% for category in categories %}
-    <h2>{{ category.name }}</h2>
-    <ul>
-        {% for channel in category.channels %}
-        <li><a href="{{ channel.url }}" target="_blank">{{ channel.name }}</a></li>
-        {% endfor %}
-    </ul>
+    <h1>إضافة قنوات IPTV</h1>
+
+    {% with messages = get_flashed_messages(with_categories=true) %}
+    {% if messages %}
+    {% for category, message in messages %}
+    <div class="flash {{ category }}">{{ message }}</div>
     {% endfor %}
+    {% endif %}
+    {% endwith %}
+
+    <form method="post">
+        <label>القسم</label>
+        <select name="category">
+            <option value="Quran">Quran</option>
+            <option value="News">News</option>
+            <option value="Movies">Movies</option>
+            <option value="Sports">Sports</option>
+        </select>
+
+        <label>اسم القناة</label>
+        <input type="text" name="channel_name" placeholder="أدخل اسم القناة">
+
+        <label>رابط القناة</label>
+        <input type="text" name="channel_url" placeholder="https://example.com/stream.m3u">
+
+        <button type="submit">إضافة القناة</button>
+    </form>
 </body>
 
 </html>
