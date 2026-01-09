@@ -20,6 +20,13 @@
       "type": "m3u",
       "category": "قنوات ايرانية",
       "enabled": true
+    },
+    {
+      "name": "القنوات اللبنانية",
+      "url": "https://raw.githubusercontent.com/iptv-org/iptv/refs/heads/master/streams/lb.m3u",
+      "type": "m3u",
+      "category": "القنوات اللبنانية",
+      "enabled": true
     }
   ]
 }
