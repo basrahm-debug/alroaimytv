@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="ar">
+
+<head>
+    <meta charset="UTF-8">
+    <title>IPTV Channels</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            direction: rtl;
+            padding: 20px;
+            background: #f4f4f4;
+        }
+
+        h2 {
+            color: #333;
+        }
+
+        ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        li {
+            margin-bottom: 5px;
+        }
+
+        a {
+            text-decoration: none;
+            color: #007BFF;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>قنوات IPTV</h1>
+    {% for category in categories %}
+    <h2>{{ category.name }}</h2>
+    <ul>
+        {% for channel in category.channels %}
+        <li><a href="{{ channel.url }}" target="_blank">{{ channel.name }}</a></li>
+        {% endfor %}
+    </ul>
+    {% endfor %}
+</body>
+
+</html>

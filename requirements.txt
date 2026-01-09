@@ -1,0 +1,5 @@
+requests
+flet
+Flask
+yt-dlp
+jinja2
