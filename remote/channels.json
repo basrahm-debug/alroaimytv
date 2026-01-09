@@ -1,0 +1,16 @@
+{
+  "updated_at": "2026-01-09T10:30:00",
+  "categories": [
+    {
+      "id": "iptv-org",
+      "channels": [
+        {
+          "name": "BBC News",
+          "url": "https://...",
+          "logo": "https://...",
+          "country": "GB"
+        }
+      ]
+    }
+  ]
+}
