@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Python
 .venv/
 __pycache__/
@@ -11,3 +12,18 @@ git/
 # OS
 .DS_Store
 Thumbs.db
+=======
+# Python
+.venv/
+__pycache__/
+*.pyc
+
+# Local folders
+local/
+FETCH_HEAD
+git/
+
+# OS
+.DS_Store
+Thumbs.db
+>>>>>>> 70f4638 (Cleanup repo: remove local/git files and add gitignore)
